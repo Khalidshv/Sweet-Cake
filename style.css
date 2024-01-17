@@ -93,3 +93,52 @@ html::webkit::-webkit-scrollbar-thumb{
 .header .search.active{
     display: inline-block;
 }
+#menu-bar{
+    display: none;
+}
+/* media queries for web responsive */
+
+@media (max-width:991px){
+    html{
+        font-size: 80%;
+    }
+    .header{
+        padding: 1.3rem 3rem;
+    }
+    .home .homeContent{
+        margin-left: 0;
+        width: 80%;
+    }
+}
+@media (max-width:768px) {
+    #menu-bar{
+        display: inline-block;
+    }
+    .header .navbar{
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 25rem;
+        background-color: var(--white);
+        height: 80vh; 
+    }
+    .header .navbar.active{
+        right: 0;
+    }
+    .header .navbar a{
+        display: block;
+        font-size: 2rem;
+        color: black;
+        margin: 1.5rem;
+    }
+
+    .home .homeContent{
+        margin-left: 0;
+        width: 90%;
+    }
+}
+@media (max-width:600px){
+    html{
+        font-size: 50%;
+    }
+}
