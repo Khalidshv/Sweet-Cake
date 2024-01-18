@@ -203,7 +203,9 @@ section{
 }
 .product .product-row .product-content button:hover{
     font-size: 2rem;
-    
+}
+.swiper-pagination-bullet{
+    background-color: var(--black);
 }
 
 
