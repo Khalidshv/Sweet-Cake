@@ -177,10 +177,34 @@ section{
 .product .product-row .img img:hover{
     transform: scale(1.1);
 }
-
-
-
-
+.product .product-row .product-content{
+    margin-bottom: 4rem;
+}
+.product .product-row .product-content h3{
+    font-size: 4rem;
+    color: var(--black);
+}
+.product .product-row .product-content p{
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+    color: var(--black);
+}
+.product .product-row .product-content .orderNow{
+    height: 3rem;
+    margin-top: 2rem;
+}
+.product .product-row .product-content button{
+    font-size: 1.8rem;
+    background-color: var(--black);
+    color: var(--white);
+    border-radius: .7rem;
+    padding: .7rem 2rem;
+    cursor: pointer;
+}
+.product .product-row .product-content button:hover{
+    font-size: 2rem;
+    
+}
 
 
 
