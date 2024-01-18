@@ -207,6 +207,12 @@ section{
 .swiper-pagination-bullet{
     background-color: var(--black);
 }
+.blogs .container{
+    display: flex;
+    align-items: center;
+    background-color: var(--white);
+
+}
 
 
 
